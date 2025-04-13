@@ -2,7 +2,7 @@
 
 const navButtons = document.querySelectorAll(".right-nav--btn");
 const sections = document.querySelectorAll(".section");
-const contactBtn = document.querySelector(".secondary");
+const contactBtns = document.querySelectorAll(".secondary");
 const langBtns = document.querySelectorAll(".lang-btn");
 let activeLang = "ro";
 
@@ -32,7 +32,25 @@ navButtons.forEach((button) => {
   });
 });
 
-contactBtn.addEventListener("click", () => {
+contactBtns[0].addEventListener("click", () => {
+  sections.forEach((section) => {
+    section.classList.add("hidden");
+  });
+
+  const activeSection = document.getElementById(`contact-${activeLang}`);
+  activeSection.classList.remove("hidden");
+
+  activeSection.classList.add("active");
+
+  navButtons.forEach((btn) => {
+    btn.classList.remove("active");
+    if (btn.getAttribute("data-section") === "contact") {
+      btn.classList.add("active");
+    }
+  });
+});
+
+contactBtns[1].addEventListener("click", () => {
   sections.forEach((section) => {
     section.classList.add("hidden");
   });
