@@ -39,8 +39,11 @@ contactBtns[0].addEventListener("click", () => {
 
   const activeSection = document.getElementById(`contact-${activeLang}`);
   activeSection.classList.remove("hidden");
-
   activeSection.classList.add("active");
+
+  document
+    .querySelector(".content")
+    .insertAdjacentElement("afterbegin", activeSection); // ✅ Adăugat
 
   navButtons.forEach((btn) => {
     btn.classList.remove("active");
@@ -57,8 +60,11 @@ contactBtns[1].addEventListener("click", () => {
 
   const activeSection = document.getElementById(`contact-${activeLang}`);
   activeSection.classList.remove("hidden");
-
   activeSection.classList.add("active");
+
+  document
+    .querySelector(".content")
+    .insertAdjacentElement("afterbegin", activeSection); // ✅ Adăugat
 
   navButtons.forEach((btn) => {
     btn.classList.remove("active");
