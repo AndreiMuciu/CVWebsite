@@ -1,0 +1,1093 @@
+<!DOCTYPE html>
+<html lang="ro">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Andrei-Constantin Mucioniu</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="./public/favicon.png" type="image/png" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Sidebar -->
+      <aside class="sidebar">
+        <div class="profile">
+          <div class="avatar-container">
+            <img src="./public/avatar.avif" alt="Avatar" class="avatar" />
+            <div class="language-switcher">
+              <button class="lang-btn active" data-lang="ro">RO</button>
+              <button class="lang-btn" data-lang="en">EN</button>
+            </div>
+          </div>
+          <h2 data-i18n="name">Muciu</h2>
+          <p data-i18n="title">Web Developer</p>
+        </div>
+        <ul class="contact-info">
+          <li>📞 +40 771 134 005</li>
+          <li>📧 constantinmucioniu@gmail.com</li>
+        </ul>
+        <div class="socials">
+          <a
+            href="https://www.linkedin.com/in/andrei-constantin-mucioniu-6553a726a/"
+            ><img src="./public/linkedin.png" alt="LinkedIn"
+          /></a>
+          <a href="https://github.com/AndreiMuciu"
+            ><img src="./public/github.png" alt="GitHub"
+          /></a>
+          <a href="https://bsky.app/profile/andreimuciu.bsky.social"
+            ><img src="./public/bluesky.png" alt="BlueSky"
+          /></a>
+        </div>
+        <a href="./public/AndreiMucioniuCV.pdf" class="btn" download
+          >Download CV</a
+        >
+      </aside>
+
+      <!-- Main Content -->
+      <main class="content">
+        <section id="about-ro" class="section intro active">
+          <h1>Salut! Sunt <span>Mucioniu Constantin-Andrei</span></h1>
+          <p>
+            Sunt un <strong>Junior Full-Stack Web Developer</strong> pasionat de
+            tehnologii moderne și de crearea de aplicații web eficiente,
+            scalabile și intuitive. Am experiență în dezvoltarea de proiecte
+            complete — de la interfață până la arhitectura backend — folosind un
+            stack actualizat și bine structurat.
+          </p>
+          <p>
+            Sunt student în anul III la
+            <strong>Universitatea Politehnica din Timișoara</strong>,
+            specializarea Calculatoare și Tehnologia Informației, unde îmi
+            dezvolt continuu abilitățile tehnice și teoretice. Îmi place să
+            îmbin cunoștințele academice cu practica, lucrând la proiecte
+            personale și colaborând pe freelance.
+          </p>
+          <p>
+            Tehnologiile cu care lucrez includ:
+            <strong
+              >HTML, CSS, JavaScript, React, Node.js, Express, MongoDB,
+              SQL</strong
+            >
+            și altele. Sunt mereu deschis să învăț lucruri noi și să lucrez în
+            echipe motivate și creative.
+          </p>
+
+          <div class="buttons vertical">
+            <a href="./public/AndreiMucioniuCV.pdf" class="btn primary" download
+              >Download CV</a
+            >
+            <button class="btn secondary">Contact</button>
+          </div>
+        </section>
+
+        <section id="projects-ro" class="section hidden">
+          <h2>Proiecte personale</h2>
+          <div class="project">
+            <h3>Simulare Epidemie</h3>
+            <p>
+              Acest proiect simulează dezvoltarea unei epidemii, oferind
+              informații despre eficiența strategiilor de paralelizare.
+              Simularea include o implementare secvențială și trei implementări
+              paralele pe diferite metodologii: Threads și MPI (Message Passing
+              Interface). Proiectul a fost realizat în cadrul cursului de
+              Algoritmi Paraleli si Distribuiti, având ca scop aprofundarea
+              cunoștințelor despre algoritmi și structuri de date paralele.
+              <br />
+              Tehnologii utilizate:
+              <strong> C, POSIX Threads, MPI, OpenMP</strong>.
+            </p>
+            <a
+              href="https://github.com/AndreiMuciu/empidemics-simulation-APD-project"
+              class="github-link"
+              target="_blank"
+              >Vezi pe GitHub</a
+            >
+          </div>
+          <div class="project">
+            <h3>Crearea Documentelor de Practică de Vară</h3>
+            <p>
+              Acest proiect facilitează gestionarea și generarea automată a
+              acordurilor de practică pentru studenți. Dezvoltat folosind C#,
+              acesta utilizează bibliotecile DocX și CSVHelper în Visual Studio.
+              Scopul principal al proiectului este de a optimiza procesul de
+              completare, stocare și generare a documentelor legate de
+              acordurile de practică. <br />
+              Tehnologii utilizate:
+              <strong> C#, DocX, CSVHelper, Visual Studio.NET Framework</strong
+              >.
+            </p>
+            <a
+              href="https://github.com/AndreiMuciu/CreatingPracticalTrainingDocuments"
+              class="github-link"
+              target="_blank"
+              >Vezi pe GitHub</a
+            >
+          </div>
+          <div class="project">
+            <h3>Aplicație Web pentru Donarea de Mâncare</h3>
+            <p>
+              Această aplicație web full-stack a fost realizată în cadrul
+              cursului de Fundamentele Ingineriei Software la Universitatea
+              Politehnica din Timișoara, în colaborare cu un coleg de facultate.
+              Proiectul își propune să faciliteze și să simplifice procesul de
+              donare a alimentelor pentru persoanele nevoiașe, oferind o
+              platformă intuitivă și ușor de utilizat pentru donatori și
+              beneficiari.
+              <br />
+              Tehnologii utilizate:
+              <strong
+                >JavaScript, Express, MongoDB, HTML/CSS, Jest (testing)</strong
+              >.
+            </p>
+            <a
+              href="https://github.com/CristiL75/DonareMancare"
+              class="github-link"
+              target="_blank"
+              >Vezi pe GitHub</a
+            >
+          </div>
+          <div class="project">
+            <h3>Mini Sistem de Versionare</h3>
+            <p>
+              Acest proiect a fost realizat în limbajul C, în cadrul facultății,
+              la materia Sisteme de Operare. Proiectul presupune crearea unui
+              mini sistem de versionare care permite realizarea de snapshoturi
+              ale fișierelor prezente într-un director specificat. Sistemul
+              capturează și stochează instantanee ale fișierelor, permițând
+              utilizatorilor să vada versiunile acestora.
+            </p>
+            <a
+              href="https://github.com/AndreiMuciu/Poiect-SO-versioning-system-"
+              class="github-link"
+              target="_blank"
+              >Vezi pe GitHub</a
+            >
+          </div>
+          <div class="project">
+            <h3>Aplicație Web pentru invatarea programarii</h3>
+            <p>
+              Această aplicație web full-stack a fost realizată în cadrul
+              cursului de Proiectarea detaliata a sistemelor software la
+              Universitatea Politehnica din Timișoara, în colaborare cu un coleg
+              de facultate. Proiectul isi propune sa ajute utlizatorii in a
+              invata skilluri de programare prin rezolvarea unor probleme de
+              algoritmica.
+              <br />
+              Tehnologii utilizate:
+              <strong>JavaScript, Express, MongoDB, HTML/CSS, React</strong>.
+            </p>
+            <a
+              href="https://github.com/CristiL75/goodCodeProject"
+              class="github-link"
+              target="_blank"
+              >Vezi pe GitHub</a
+            >
+          </div>
+        </section>
+
+        <section id="experience-ro" class="section">
+          <h2>Experiență</h2>
+
+          <div class="experience-timeline">
+            <div class="timeline-item">
+              <div class="timeline-header">
+                <div class="timeline-marker"></div>
+                <h3>
+                  Participant Liga AC Labs
+                  <span class="status-badge">În desfășurare</span>
+                </h3>
+                <p class="timeline-subtitle">
+                  Haufe Group & Universitatea Politehnica Timișoara
+                </p>
+                <p class="timeline-date">
+                  31 martie 2025 - Prezent (13 iunie 2025)
+                </p>
+              </div>
+
+              <div class="timeline-content">
+                <p class="experience-intro">
+                  În această etapă incipientă a carierei, mă concentrez pe
+                  acumularea de cunoștințe practice prin participarea la
+                  programul <strong>Liga AC Labs</strong>. Acest proiect
+                  educațional îmi permite să:
+                </p>
+
+                <ul class="experience-skills">
+                  <li class="skill-item">
+                    <img src="./public/web.png" alt="WD" class="skill-icon" />
+                    <div class="skill-details">
+                      <h4>Fundamentele Dezvoltării Web</h4>
+                      <p>
+                        Prezentare generală a ciclului de viață al dezvoltării,
+                        introducere în metodologiile Agile
+                      </p>
+                    </div>
+                  </li>
+
+                  <li class="skill-item">
+                    <img
+                      src="./public/github.png"
+                      alt="github"
+                      class="skill-icon"
+                    />
+                    <div class="skill-details">
+                      <h4>Bazele Git și Controlul Versiunilor</h4>
+                      <p>
+                        Lucrul cu repo-uri remote, pull requests, bune practici
+                      </p>
+                    </div>
+                  </li>
+
+                  <li class="skill-item">
+                    <img
+                      src="./public/javascript.png"
+                      alt="JS/TS"
+                      class="skill-icon"
+                    />
+                    <div class="skill-details">
+                      <h4>Fundamentele JavaScript/TypeScript</h4>
+                      <p>
+                        sintaxa JS, tipuri de date, operatori, functii, scope,
+                        closures, lucrul cu DOM-ul..
+                      </p>
+                    </div>
+                  </li>
+                  <li class="skill-item">
+                    <img
+                      src="./public/database.png"
+                      alt="db"
+                      class="skill-icon"
+                    />
+                    <div class="skill-details">
+                      <h4>Baze de date și modelarea datelor</h4>
+                      <p>
+                        Modelarea datelor: Entități, atribute, relații; CRUD,
+                        SQL vs NoSQL
+                      </p>
+                    </div>
+                  </li>
+                  <li class="skill-item">
+                    <img
+                      src="./public/express.png"
+                      alt="expr"
+                      class="skill-icon"
+                    />
+                    <div class="skill-details">
+                      <h4>API-uri Backend cu Express.js</h4>
+                      <p>
+                        API-uri RESTful, middleware, rutare, gestionarea
+                        erorilor, endpoint-uri
+                      </p>
+                    </div>
+                  </li>
+                  <li class="skill-item">
+                    <img
+                      src="./public/react.png"
+                      alt="react"
+                      class="skill-icon"
+                    />
+                    <div class="skill-details">
+                      <h4>Frontend cu React - State Management - CSS</h4>
+                      <p>
+                        Componente, props, JSX, State management, CSS-in-JS,
+                      </p>
+                    </div>
+                  </li>
+                  <li class="skill-item">
+                    <img
+                      src="./public/express.png"
+                      alt="expr"
+                      class="skill-icon"
+                    />
+                    <div class="skill-details">
+                      <h4>Backend avansat</h4>
+                      <p>
+                        Autentificare and autorizare, implementarea
+                        autentificarii userilor, practici bune de securitate
+                      </p>
+                    </div>
+                  </li>
+                  <li class="skill-item">
+                    <img
+                      src="./public/Ui Ux.png"
+                      alt="ui/ux"
+                      class="skill-icon"
+                    />
+                    <div class="skill-details">
+                      <h4>Principii UI/UX</h4>
+                      <p>
+                        design centrat pe utilizator, Wireframing and
+                        prototyping, tool-uri (figma, adobe, etc)
+                      </p>
+                    </div>
+                  </li>
+                  <li class="skill-item">
+                    <img
+                      src="./public/react.png"
+                      alt="react"
+                      class="skill-icon"
+                    />
+                    <div class="skill-details">
+                      <h4>Frontend avansat - React Router, API Integration</h4>
+                      <p>
+                        React Router, API Integration, Fetching data, Axios,
+                        Promises, Async/Await
+                      </p>
+                    </div>
+                  </li>
+                  <li class="skill-item">
+                    <img
+                      src="./public/testing.png"
+                      alt="tst"
+                      class="skill-icon"
+                    />
+                    <div class="skill-details">
+                      <h4>Testing, Containerisation & Deployment</h4>
+                      <p>
+                        Testare unități, testare de integrare, testare E2E,
+                        containerizare (Docker), CI/CD, deployment pe platforme
+                        cloud (AWS, Heroku, etc)
+                      </p>
+                    </div>
+                  </li>
+                </ul>
+
+                <div class="project-preview">
+                  <div class="github-placeholder">
+                    <svg class="github-spinner" viewBox="0 0 50 50">
+                      <circle
+                        cx="25"
+                        cy="25"
+                        r="20"
+                        fill="none"
+                        stroke="#1abc9c"
+                        stroke-width="4"
+                      ></circle>
+                    </svg>
+                    <span class="placeholder-text"
+                      >Proiectul final este în curs de dezvoltare</span
+                    >
+                  </div>
+                  <p class="disclaimer">
+                    Disponibil public începând cu <strong>TBD</strong>.
+                  </p>
+                </div>
+
+                <blockquote class="experience-quote">
+                  "Primul meu contact cu un mediu de dezvoltare profesional m-a
+                  învățat că excelența tehnică se construiește prin atenție la
+                  detalii și colaborare eficientă."
+                </blockquote>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="education-ro" class="section">
+          <h2>Educație</h2>
+
+          <div class="education-timeline">
+            <!-- Liceu -->
+            <div class="education-item">
+              <div class="education-header">
+                <div class="education-icon">🎓</div>
+                <div class="education-details">
+                  <h3>Colegiul Național "Gheorghe Țițeica"</h3>
+                  <p class="education-subtitle">
+                    Drobeta-Turnu Severin | 2018 - 2022
+                  </p>
+                  <div class="achievement-badge">
+                    <span class="badge-text">Medie Bacalaureat: 8.80</span>
+                    <div class badge-dot></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Universitate -->
+            <div class="education-item university">
+              <div class="education-header">
+                <div class="education-icon">🚀</div>
+                <div class="education-details">
+                  <h3>Universitatea Politehnica Timișoara</h3>
+                  <p class="education-subtitle">
+                    Facultatea de Automatică și Calculatoare, Licenta | 2022 -
+                    2026
+                  </p>
+                  <div class="specialization-chip">
+                    <span>Calculatoare si Tehnologia Informatiei - RO</span>
+                  </div>
+                  <div class="specialization-chip">
+                    <span>Specializarea: Calculatoare</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="skills-grid">
+                <div class="skill-pill">
+                  <img src="./public/Data Structures.png" alt="SDA" />
+                  <span>Structuri de Date si Algoritmi</span>
+                  <div class="skill-progress" style="width: 100%"></div>
+                </div>
+                <div class="skill-pill">
+                  <img src="./public/Oop.png" alt="Java" />
+                  <span>POO în Java</span>
+                  <div class="skill-progress" style="width: 100%"></div>
+                </div>
+                <div class="skill-pill">
+                  <img
+                    src="./public/artificial-intelligence.png"
+                    alt="Python"
+                  />
+                  <span>Bazele Inteligentei Artificiale</span>
+                  <div class="skill-progress" style="width: 100%"></div>
+                </div>
+                <div class="skill-pill">
+                  <img src="./public/softSys.png" alt="JavaScript" />
+                  <span>Proiectarea detaliata a sistemelor software</span>
+                  <div class="skill-progress" style="width: 100%"></div>
+                </div>
+                <div class="skill-pill">
+                  <img src="./public/arhitecture.png" alt="JavaScript" />
+                  <span
+                    >Proiectare si arhitectura sistemelor software
+                    complexe</span
+                  >
+                  <div class="skill-progress" style="width: 70%"></div>
+                </div>
+                <div class="skill-pill">
+                  <img src="./public/operationSystem.png" alt="JavaScript" />
+                  <span>Sisteme de operare</span>
+                  <div class="skill-progress" style="width: 100%"></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Cursuri Adiționale -->
+            <div class="learning-journey">
+              <h3>⚡ Cursuri Complementare</h3>
+              <div class="course-carousel">
+                <div class="course-card">
+                  <div class="course-logo udemy"></div>
+                  <h4>Frontend Mastery Path</h4>
+                  <p>React, Advanced JavaScript, Webpack</p>
+                  <div class="course-progress"></div>
+                </div>
+
+                <div class="course-card">
+                  <div class="course-logo aws"></div>
+                  <h4>AWS Essentials</h4>
+                  <p>EC2, S3, Lambda Functions</p>
+                  <div class="course-progress"></div>
+                </div>
+
+                <div class="course-card">
+                  <div class="course-logo backend"></div>
+                  <h4>Node.js Expert</h4>
+                  <p>Express, REST APIs, JWT Auth</p>
+                  <div class="course-progress"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="contact-ro" class="section">
+          <h2>📬 Contact</h2>
+          <div class="simple-contact">
+            <div class="contact-badge">
+              <div class="location">
+                <img
+                  src="./public/location.png"
+                  alt="Location"
+                  class="contact-icon"
+                />
+                <div>
+                  <h3>Disponibil în Timișoara, Romania, Uniunea Europeana</h3>
+                  <p>Timișoara, Romania</p>
+                  <p>Open to local opportunities</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="contact-channels">
+              <a
+                href="mailto:constantinmucioniu@gmail.com"
+                class="email-channel"
+              >
+                <img
+                  src="./public/email.png"
+                  alt="Email"
+                  class="contact-icon"
+                />
+                <div>
+                  <h3>Email</h3>
+                  <p>constantinmucioniu@gmail.com</p>
+                  <span class="response-time">Răspund în maxim 24 de ore</span>
+                </div>
+              </a>
+
+              <div class="socials-contact">
+                <a
+                  href="https://www.linkedin.com/in/andrei-constantin-mucioniu-6553a726a/"
+                  class="social-link"
+                >
+                  <img src="./public/linkedin.png" alt="LinkedIn" />
+                  LinkedIn
+                </a>
+                <a href="https://github.com/AndreiMuciu" class="social-link">
+                  <img src="./public/github.png" alt="GitHub" />
+                  GitHub
+                </a>
+                <a
+                  href="https://bsky.app/profile/andreimuciu.bsky.social"
+                  class="social-link"
+                >
+                  <img src="./public/bluesky.png" alt="BlueSky" />
+                  BlueSky
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="about-en" class="section intro">
+          <h1>Hello! I am <span>Mucioniu Constantin-Andrei</span></h1>
+          <p>
+            I am a <strong>Junior Full-Stack Web Developer</strong> passionate
+            about modern technologies and creating efficient, scalable, and
+            intuitive web applications. I have experience in developing complete
+            projects — from front-end to backend architecture — using an
+            up-to-date and well-structured stack.
+          </p>
+          <p>
+            I am a third year student at
+            <strong>Politehnica University of Timisoara</strong>, specializing
+            in Computers and Information Technology, where I am continuously
+            developing my technical and theoretical skills. I enjoy combining
+            academic knowledge with practice, working on personal projects and
+            collaborating on freelance.
+          </p>
+          <p>
+            The technologies I work with include:
+            <strong
+              >HTML, CSS, JavaScript, React, Node.js, Express, MongoDB,
+              SQL</strong
+            >
+            and others. I am always open to learning new things and working in
+            motivated and creative teams.
+          </p>
+
+          <div class="buttons vertical">
+            <a href="./public/AndreiMucioniuCV.pdf" class="btn primary" download
+              >Download CV</a
+            >
+            <button class="btn secondary">Contact</button>
+          </div>
+        </section>
+
+        <section id="projects-en" class="section hidden">
+          <h2>Personal projects</h2>
+          <div class="project">
+            <h3>Epidemic Simulation</h3>
+            <p>
+              This project simulates the development of an epidemic, providing
+              information on the efficiency of parallelization strategies. The
+              simulation includes a sequential implementation and three parallel
+              implementations on different methodologies: Threads and MPI
+              (Message Passing Interface). The project was carried out within
+              the Parallel and Distributed Algorithms course, aiming to deepen
+              knowledge about parallel algorithms and data structures.
+              <br />
+              Technologies used:
+              <strong> C, POSIX Threads, MPI, OpenMP</strong>.
+            </p>
+            <a
+              href="https://github.com/AndreiMuciu/empidemics-simulation-APD-project"
+              class="github-link"
+              target="_blank"
+              >See on GitHub</a
+            >
+          </div>
+          <div class="project">
+            <h3>Creating Summer Practice Documents</h3>
+            <p>
+              This project facilitates the management and automatic generation
+              of internship agreements for students. Developed using C#, it uses
+              the DocX and CSVHelper libraries in Visual Studio. The main goal
+              of the project is to optimize the process of completing, storing
+              and generating documents related to internship agreements. <br />
+              Technologies used:
+              <strong> C#, DocX, CSVHelper, Visual Studio.NET Framework</strong
+              >.
+            </p>
+            <a
+              href="https://github.com/AndreiMuciu/CreatingPracticalTrainingDocuments"
+              class="github-link"
+              target="_blank"
+              >See on GitHub</a
+            >
+          </div>
+          <div class="project">
+            <h3>Web Application for Food Donation</h3>
+            <p>
+              This full-stack web application was developed as part of the
+              Fundamentals of Software Engineering course at the Politehnica
+              University of Timisoara, in collaboration with a faculty
+              colleague. The project aims to facilitate and simplify the process
+              of donating food to people in need, providing an intuitive and
+              easy-to-use platform for donors and beneficiaries.
+              <br />
+              Technologies used:
+              <strong
+                >JavaScript, Express, MongoDB, HTML/CSS, Jest (testing)</strong
+              >.
+            </p>
+            <a
+              href="https://github.com/CristiL75/DonareMancare"
+              class="github-link"
+              target="_blank"
+              >See on GitHub</a
+            >
+          </div>
+          <div class="project">
+            <h3>Mini versioning system</h3>
+            <p>
+              This project was carried out in the C language, within the
+              faculty, in the subject of Operating Systems. The project involves
+              the creation of a mini versioning system that allows the creation
+              of snapshots of the files present in a specified directory. The
+              system captures and stores snapshots of the files, allowing users
+              to see their versions.
+            </p>
+            <a
+              href="https://github.com/AndreiMuciu/Poiect-SO-versioning-system-"
+              class="github-link"
+              target="_blank"
+              >See on GitHub</a
+            >
+          </div>
+          <div class="project">
+            <h3>Web application for learning programming</h3>
+            <p>
+              This full-stack web application was created as part of the
+              Detailed Design of Software Systems course at the Politehnica
+              University of Timisoara, in collaboration with a colleague. The
+              project aims to help users learn programming skills by solving
+              algorithmic problems.
+              <br />
+              Technologies used:
+              <strong>JavaScript, Express, MongoDB, HTML/CSS, React</strong>.
+            </p>
+            <a
+              href="https://github.com/CristiL75/goodCodeProject"
+              class="github-link"
+              target="_blank"
+              >See on GitHub</a
+            >
+          </div>
+        </section>
+
+        <section id="experience-en" class="section">
+          <h2>Experience</h2>
+
+          <div class="experience-timeline">
+            <div class="timeline-item">
+              <div class="timeline-header">
+                <div class="timeline-marker"></div>
+                <h3>
+                  Participant Liga AC Labs
+                  <span class="status-badge">In progress</span>
+                </h3>
+                <p class="timeline-subtitle">
+                  Haufe Group & Politehnica University of Timisoara
+                </p>
+                <p class="timeline-date">
+                  March 31, 2025 - Present (June 13, 2025)
+                </p>
+              </div>
+
+              <div class="timeline-content">
+                <p class="experience-intro">
+                  At this early stage of my career, I am focusing on gaining
+                  practical knowledge by participating in the program
+                  <strong>Liga AC Labs</strong>. This educational project allows
+                  me to:
+                </p>
+
+                <ul class="experience-skills">
+                  <li class="skill-item">
+                    <img src="./public/web.png" alt="WD" class="skill-icon" />
+                    <div class="skill-details">
+                      <h4>Web Development Fundamentals</h4>
+                      <p>
+                        Overview of the development lifecycle, introduction to
+                        Agile methodologies
+                      </p>
+                    </div>
+                  </li>
+
+                  <li class="skill-item">
+                    <img
+                      src="./public/github.png"
+                      alt="github"
+                      class="skill-icon"
+                    />
+                    <div class="skill-details">
+                      <h4>Git Basics and Version Control</h4>
+                      <p>
+                        Working with remote repos, pull requests, best practices
+                      </p>
+                    </div>
+                  </li>
+
+                  <li class="skill-item">
+                    <img
+                      src="./public/javascript.png"
+                      alt="JS/TS"
+                      class="skill-icon"
+                    />
+                    <div class="skill-details">
+                      <h4>JavaScript/TypeScript fundamentals</h4>
+                      <p>
+                        JS syntax, data types, operators, functions, scope,
+                        closures, working with the DOM.
+                      </p>
+                    </div>
+                  </li>
+                  <li class="skill-item">
+                    <img
+                      src="./public/database.png"
+                      alt="db"
+                      class="skill-icon"
+                    />
+                    <div class="skill-details">
+                      <h4>Databases and daya modeling</h4>
+                      <p>
+                        Data Modeling: Entities, Attributes, Relationships;
+                        CRUD, SQL vs NoSQL
+                      </p>
+                    </div>
+                  </li>
+                  <li class="skill-item">
+                    <img
+                      src="./public/express.png"
+                      alt="expr"
+                      class="skill-icon"
+                    />
+                    <div class="skill-details">
+                      <h4>API-uri Backend cu Express.js</h4>
+                      <p>
+                        APIs RESTful, middleware, routing, error handling,
+                        endpoints
+                      </p>
+                    </div>
+                  </li>
+                  <li class="skill-item">
+                    <img
+                      src="./public/react.png"
+                      alt="react"
+                      class="skill-icon"
+                    />
+                    <div class="skill-details">
+                      <h4>Frontend with React - State Management - CSS</h4>
+                      <p>
+                        Components, props, JSX, State management, CSS-in-JS,
+                      </p>
+                    </div>
+                  </li>
+                  <li class="skill-item">
+                    <img
+                      src="./public/express.png"
+                      alt="expr"
+                      class="skill-icon"
+                    />
+                    <div class="skill-details">
+                      <h4>Advanced backend</h4>
+                      <p>
+                        Authentication and authorization, implementing user
+                        authentication, good security practices
+                      </p>
+                    </div>
+                  </li>
+                  <li class="skill-item">
+                    <img
+                      src="./public/Ui Ux.png"
+                      alt="ui/ux"
+                      class="skill-icon"
+                    />
+                    <div class="skill-details">
+                      <h4>UI/UX principles</h4>
+                      <p>
+                        user-centered design, Wireframing and prototyping, tools
+                        (figma, adobe, etc)
+                      </p>
+                    </div>
+                  </li>
+                  <li class="skill-item">
+                    <img
+                      src="./public/react.png"
+                      alt="react"
+                      class="skill-icon"
+                    />
+                    <div class="skill-details">
+                      <h4>Advanced frontend - React Router, API Integration</h4>
+                      <p>
+                        React Router, API Integration, Fetching data, Axios,
+                        Promises, Async/Await
+                      </p>
+                    </div>
+                  </li>
+                  <li class="skill-item">
+                    <img
+                      src="./public/testing.png"
+                      alt="tst"
+                      class="skill-icon"
+                    />
+                    <div class="skill-details">
+                      <h4>Testing, Containerisation & Deployment</h4>
+                      <p>
+                        Unit testing, integration testing, E2E testing,
+                        Containerisation (Docker), CI/CD, deployment on cloud
+                        platforms (AWS, Heroku, etc)
+                      </p>
+                    </div>
+                  </li>
+                </ul>
+
+                <div class="project-preview">
+                  <div class="github-placeholder">
+                    <svg class="github-spinner" viewBox="0 0 50 50">
+                      <circle
+                        cx="25"
+                        cy="25"
+                        r="20"
+                        fill="none"
+                        stroke="#1abc9c"
+                        stroke-width="4"
+                      ></circle>
+                    </svg>
+                    <span class="placeholder-text"
+                      >The final project is under development.</span
+                    >
+                  </div>
+                  <p class="disclaimer">
+                    Publicly available starting with <strong>TBD</strong>.
+                  </p>
+                </div>
+
+                <blockquote class="experience-quote">
+                  "My first contact with a professional development environment
+                  taught me that technical excellence is built through attention
+                  to detail and effective collaboration."
+                </blockquote>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="education-en" class="section">
+          <h2>Education</h2>
+
+          <div class="education-timeline">
+            <!-- Liceu -->
+            <div class="education-item">
+              <div class="education-header">
+                <div class="education-icon">🎓</div>
+                <div class="education-details">
+                  <h3>Colegiul Național "Gheorghe Țițeica"</h3>
+                  <p class="education-subtitle">
+                    Drobeta-Turnu Severin | 2018 - 2022
+                  </p>
+                  <div class="achievement-badge">
+                    <span class="badge-text"
+                      >Baccalaureate Grade Point Average: 8.80</span
+                    >
+                    <div class badge-dot></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Universitate -->
+            <div class="education-item university">
+              <div class="education-header">
+                <div class="education-icon">🚀</div>
+                <div class="education-details">
+                  <h3>Politehnica University of Timisoara</h3>
+                  <p class="education-subtitle">
+                    Faculty of Automatic Control and Computers, Bachelor's
+                    Degree | 2022 - 2026
+                  </p>
+                  <div class="specialization-chip">
+                    <span>Computers and Information Technology - RO</span>
+                  </div>
+                  <div class="specialization-chip">
+                    <span>Specialization: Computers</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="skills-grid">
+                <div class="skill-pill">
+                  <img src="./public/Data Structures.png" alt="SDA" />
+                  <span>Data Structures and Algorithms</span>
+                  <div class="skill-progress" style="width: 100%"></div>
+                </div>
+                <div class="skill-pill">
+                  <img src="./public/Oop.png" alt="Java" />
+                  <span>POO with Java</span>
+                  <div class="skill-progress" style="width: 100%"></div>
+                </div>
+                <div class="skill-pill">
+                  <img
+                    src="./public/artificial-intelligence.png"
+                    alt="Python"
+                  />
+                  <span>Fundamentals of Artificial Intelligence</span>
+                  <div class="skill-progress" style="width: 100%"></div>
+                </div>
+                <div class="skill-pill">
+                  <img src="./public/softSys.png" alt="JavaScript" />
+                  <span>Detailed design of software systems</span>
+                  <div class="skill-progress" style="width: 100%"></div>
+                </div>
+                <div class="skill-pill">
+                  <img src="./public/arhitecture.png" alt="JavaScript" />
+                  <span
+                    >Design and architecture of complex software systems</span
+                  >
+                  <div class="skill-progress" style="width: 70%"></div>
+                </div>
+                <div class="skill-pill">
+                  <img src="./public/operationSystem.png" alt="JavaScript" />
+                  <span>Operating systems</span>
+                  <div class="skill-progress" style="width: 100%"></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Cursuri Adiționale -->
+            <div class="learning-journey">
+              <h3>⚡ Additional courses</h3>
+              <div class="course-carousel">
+                <div class="course-card">
+                  <div class="course-logo udemy"></div>
+                  <h4>Frontend Mastery Path</h4>
+                  <p>React, Advanced JavaScript, Webpack</p>
+                  <div class="course-progress"></div>
+                </div>
+
+                <div class="course-card">
+                  <div class="course-logo aws"></div>
+                  <h4>AWS Essentials</h4>
+                  <p>EC2, S3, Lambda Functions</p>
+                  <div class="course-progress"></div>
+                </div>
+
+                <div class="course-card">
+                  <div class="course-logo backend"></div>
+                  <h4>Node.js Expert</h4>
+                  <p>Express, REST APIs, JWT Auth</p>
+                  <div class="course-progress"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="contact-en" class="section">
+          <h2>📬 Contact</h2>
+          <div class="simple-contact">
+            <div class="contact-badge">
+              <div class="location">
+                <img
+                  src="./public/location.png"
+                  alt="Location"
+                  class="contact-icon"
+                />
+                <div>
+                  <h3>Available in Timisoara, Romania, European Union</h3>
+                  <p>Timișoara, Romania</p>
+                  <p>Open to local opportunities</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="contact-channels">
+              <a
+                href="mailto:constantinmucioniu@gmail.com"
+                class="email-channel"
+              >
+                <img
+                  src="./public/email.png"
+                  alt="Email"
+                  class="contact-icon"
+                />
+                <div>
+                  <h3>Email</h3>
+                  <p>constantinmucioniu@gmail.com</p>
+                  <span class="response-time"
+                    >I will respond within 24 hours.</span
+                  >
+                </div>
+              </a>
+
+              <div class="socials-contact">
+                <a
+                  href="https://www.linkedin.com/in/andrei-constantin-mucioniu-6553a726a/"
+                  class="social-link"
+                >
+                  <img src="./public/linkedin.png" alt="LinkedIn" />
+                  LinkedIn
+                </a>
+                <a href="https://github.com/AndreiMuciu" class="social-link">
+                  <img src="./public/github.png" alt="GitHub" />
+                  GitHub
+                </a>
+                <a
+                  href="https://bsky.app/profile/andreimuciu.bsky.social"
+                  class="social-link"
+                >
+                  <img src="./public/bluesky.png" alt="BlueSky" />
+                  BlueSky
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <nav class="right-nav">
+          <ul>
+            <li>
+              <button data-section="about" class="right-nav--btn active">
+                <img src="./public/about.png" alt="Intro" />
+              </button>
+            </li>
+            <li>
+              <button data-section="projects" class="right-nav--btn">
+                <img src="./public/projects.png" alt="Proiecte" />
+              </button>
+            </li>
+            <li>
+              <button data-section="experience" class="right-nav--btn">
+                <img src="./public/experience.png" alt="Experiență" />
+              </button>
+            </li>
+            <li>
+              <button data-section="education" class="right-nav--btn">
+                <img src="./public/education.png" alt="Educație" />
+              </button>
+            </li>
+            <li>
+              <button data-section="contact" class="right-nav--btn">
+                <img src="./public/contact.png" alt="Contact" />
+              </button>
+            </li>
+          </ul>
+        </nav>
+      </main>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
