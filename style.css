@@ -793,8 +793,12 @@ body {
     }
     
     .language-switcher {
-      transform: translate(60%, -40%);
+      position: relative;
+      transform: none;
       padding: 3px;
+      margin-left: auto;
+      background: rgba(255,255,255,0.95);
+      border-radius: 15px;
     }
   }
   
@@ -861,7 +865,7 @@ body {
     position: absolute;
     top: 0;
     right: 0;
-    transform: translate(50%, -50%);
+    transform: translate(90%, -50%);
     display: flex;
     gap: 5px;
     background: #fff;
@@ -989,16 +993,36 @@ body {
       box-shadow: 0 5px 15px rgba(26,188,156,0.5);
     }
     
-    /* Language switcher */
+    /* Language switcher - poziționare corectă pe mobil */
     .language-switcher {
-      transform: translate(50%, -40%);
+      position: relative;
+      transform: none;
+      margin-left: auto;
       padding: 4px;
+      background: rgba(255,255,255,0.9);
+      border-radius: 20px;
+      backdrop-filter: blur(10px);
+    }
+    
+    .avatar-container {
+      position: relative;
+      display: flex;
+      align-items: center;
+      gap: 1rem;
     }
     
     .lang-btn {
-      width: 35px;
-      height: 35px;
-      font-size: 0.9rem;
+      width: 32px;
+      height: 32px;
+      font-size: 0.8rem;
+      background: rgba(255,255,255,0.8);
+      border: 1px solid rgba(26,188,156,0.3);
+    }
+    
+    .lang-btn.active {
+      background: #1abc9c;
+      color: white;
+      border-color: #1abc9c;
     }
   }
   
